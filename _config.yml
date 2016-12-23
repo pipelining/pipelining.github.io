@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh"
-title                    : "Mistake"
+locale                   : "en"
+title                    : "Hello World"
 title_separator          : "-"
-name                     : "Zhang DongDong"
+name                     : "DongDong"
 description              : "胡言乱语"
 url                      : "https://pipelining.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/assets/images/avatar.jpg"# path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -77,9 +77,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zhang DongDong"
+  name             : "DongDong"
   avatar           : "/assets/images/avatar.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "戎码一生"
+  bio              : "God in his heaven, all`s rights with the World."
   location         : "Harbin"
   email            : "zdd@microfeel.net"
   uri              :
