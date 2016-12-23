@@ -2,11 +2,10 @@
 main:
   - title: "Objective-C Tutorial"
     url: https://pipelining.github.io/Objective-C/Objective-C-base
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Objective-C Advance"
+    url: https://pipelining.github.io/Objective-C/Objective-C-advance
+  - title: "iOS Tutorial"
+    url: https://pipelining.github.io/iOS/iOS-base
+  - title: "iOS Advance"
+    url: https://pipelining.github.io/iOS/iOS-advance
+  
