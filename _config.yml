@@ -10,7 +10,7 @@ locale                   : "zh-CN"
 title                    : "张冬冬的博客"
 title_separator          : "-"
 name                     : "DongDong"
-description              : "胡言乱语"
+description              : "张冬冬"
 url                      : "https://pipelining.github.io"# the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -238,7 +238,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: single
+      layout: archive
       author_profile: true
       read_time: true
       comments: # true
