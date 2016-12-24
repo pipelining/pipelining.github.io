@@ -1,11 +1,11 @@
 # main links
 main:
-  - title: "Objective-C Tutorial"
-    url: https://pipelining.github.io/Objective-C/Objective-C-base
-  - title: "Objective-C Advance"
-    url: https://pipelining.github.io/Objective-C/Objective-C-advance
-  - title: "iOS Tutorial"
-    url: https://pipelining.github.io/iOS/iOS-base
-  - title: "iOS Advance"
-    url: https://pipelining.github.io/iOS/iOS-advance
+  # - title: "Objective-C Tutorial"
+  #   url: https://pipelining.github.io/Objective-C/Objective-C-base
+  # - title: "Objective-C Advance"
+  #   url: https://pipelining.github.io/Objective-C/Objective-C-advance
+  # - title: "iOS Tutorial"
+  #   url: https://pipelining.github.io/iOS/iOS-base
+  # - title: "iOS Advance"
+  #   url: https://pipelining.github.io/iOS/iOS-advance
   
