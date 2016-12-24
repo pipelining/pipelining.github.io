@@ -80,12 +80,12 @@ author:
   name             : "DongDong"
   avatar           : "/assets/images/avatar.jpg"# path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "God in his heaven, all`s rights with the World."
-  location         : "Harbin"
+  location         : "Harbin, China"
   email            : "939224798@qq.com"
   uri              :
   bitbucket        :
   codepen          :
-  dribbble         :
+  dribbble         : "pipelining/"
   flickr           :
   facebook         :
   foursquare       :
@@ -235,7 +235,7 @@ compress_html:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "/assets/images/avatar.jpg"
       type: posts
     values:
       layout: single
