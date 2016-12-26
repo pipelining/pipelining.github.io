@@ -27,4 +27,24 @@ Xcode是一款功能齐全的应用程序, 使用它可轻松输入, 编译, 调
 启动Xcode, 在启动页面选择 "Create a new Xcode projects"
 ![创建一个新项目](./assets/images/demoImage/02-demo01.png)
 
+此时出现一个窗口, 如下图所示.
+![选择应用类型](./assets/images/demoImage/02-demo02.png)
+
+在macOS下, 选择command Line Tool后, 会弹出一个面板.
+![指定应用名称及组织标识](./assets/images/demoImage/02-demo03.png)
+
+输入应用的名字, 及Organization Identifier, 点击Next. 选择创建位置, 点击Create按钮创建新应用. 显示如下.
+![Xcode项目窗口](./assets/images/demoImage/02-demo04.png)
+
+在左侧窗格选择main.m, 现在, 你可以输入第一个程序了.
+![main.m文件编辑窗口](./assets/images/demoImage/02-demo05.png)
+
+Objective-C源文件使用.m作为文件名的最后两个字符(称为扩展名). 如下列出了常见的文件扩展名:
++ .c C语言源文件
++ .cc, .cpp C++语言源文件
++ .h 头文件
++ .m Objective-C源文件
++ .mm Objective-C++源文件
++ .pl Perl源文件
++ .o Object(编译后的)文件
 
