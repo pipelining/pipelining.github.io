@@ -1,5 +1,5 @@
 ---
-title: "2. Objective-C 编程"
+title: "Objective-C 编程"
 ---
 
 本节将直接切入主题, 演示如何编写第一个Objective-C程序.
