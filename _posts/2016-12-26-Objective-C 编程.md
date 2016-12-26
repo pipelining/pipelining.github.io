@@ -41,13 +41,13 @@ Xcode是一款功能齐全的应用程序, 使用它可轻松输入, 编译, 调
 
 Objective-C源文件使用.m作为文件名的最后两个字符(称为扩展名). 如下列出了常见的文件扩展名:
 
--.c C语言源文件
--.cc, .cpp C++语言源文件
--.h 头文件
--.m Objective-C源文件
--.mm Objective-C++源文件
--.pl Perl源文件
--.o Object(编译后的)文件
+*.c C语言源文件
+*.cc, .cpp C++语言源文件
+*.h 头文件
+*.m Objective-C源文件
+*.mm Objective-C++源文件
+*.pl Perl源文件
+*.o Object(编译后的)文件
 
 返回Xcode项目窗口, 窗口右侧显示了文件main.m的内容, Xcode能自动创建一个模板文件,包含以下内容:
 ```
