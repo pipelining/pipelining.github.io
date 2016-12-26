@@ -2,63 +2,29 @@
 title: "2. Objective-C 编程"
 ---
 
-C程序设计语言是由AT&T贝尔实验室的Dennis Ritchie于20世纪70年代早期首创.但是知道20世纪70年代晚期, 这种程序设计语言才获得广泛的支持并流行开来.
-    
-Brad J.Cox在20世纪80年代早期设计了Objective-C语言, 它以一种叫做SmallTalk-80的语言为基础, Objective-C在C语言的基础上加了一层面向对象的特性, 这意味着对C进行了扩展, 从而创造出一门新的程序设计语言, 支持对象的创建与操作.
-    
-1988年,NeXT公司获得Objective-C语言的授权, 并发展了Objective-C的语言库和一个开发环境.即NEXTSTEP.
-	
-1996年12月20日,苹果公司宣布收购NeXT公司.NEXTSTEP环境成为苹果操作系统OSX的基础.这个开发环境的版本称为Cocoa.内置了Objective-C语言的支持.
-	
-2007年,苹果公司发布了Objective-C 2.0.
-	
-***
+本节将直接切入主题, 演示如何编写第一个Objective-C程序.
 
-### 教程内容
+首先, 举一个很简单的例子, 在屏幕上显示短语 "programming is fun!" 的程序.以下代码显示了完成此任务的代码.
+```
+#import <Foundation/Foundation.h>
+int main (int argc, const char *argv[]) {
+	@autoreleasepool {
+		NLog (@"Programming is fun!");
+		}
+}
+```
 
-本教程从逻辑上分为三部分:
-	
-1. **Objective-C语言.** 介绍该语言的基础部分.
-2. **Foundation框架.** 讲述如何使用构成Foundation框架的种类丰富的预定义.
-3. **Cocoa, CocoaTouch和iOS SDK.** 简要介绍Cocoa和CocoaTouch框架,并演示使用iOS SDK开发简单应用.
+### 编译并运行程序
+
+在详细解释这个程序之前, 我们首先要学习编译和运行此程序的步骤. 可以使用Xcode编译并运行程序, 也可以使用GUN Objective-C编译器在Terminal窗口编译并运行程序. 我们将用这两种方法分别实现这一系列步骤. 然后, 你可以确定如何处理本书其余部分的程序.
+
 	
 ***
 
-### 教程目录
+#### 使用Xcode
+Xcode是一款功能齐全的应用程序, 使用它可轻松输入, 编译, 调试和执行程序. 
 
-[2. Objective-C编程](/) 
-首先讲述如何使用Objective-C编写第一个程序. (注意, 本教程大多数例子都是从键盘获得输入,并在一个窗口产生输出: 如果是在命令行中, 那么这个窗口是Terminal窗口. 如果是Xcode, 那么这个窗口是调试输出窗口.)
+启动Xcode, 在启动页面选择 "Create a new Xcode projects"
+![创建一个新项目](./assets/images/demoImage/02-demo01.png)
 
-[3. 类, 对象和方法](/)
-介绍了面向对象程序设计的基础.
 
-[4. 数据类型和表达式](/)
-描述了基本的Objective-C数据类型以及如何在程序中使用它们.
-
-[5. 循环结构](/)
-介绍了在程序中可以使用的3种循环语句. 即for, while和do.
-
-[6. 选择结构](/)
-介绍了if和switch语句.
-
-[7. 类](/)
-更深入地研究了类和对象的使用. 详细讨论了方法,方法的多个参数及局部变量的相关内容.
-
-[8. 继承](/)
-介绍了继承的主要概念,这一特性使得程序更易开发. 因为我们可以利用以前编写的代码,使用继承和子类的概念, 可以方便的修改和扩展现有类定义.
-
-[9. Objective-C语言的3个重要特性](/)
-多态, 动态类型及动态绑定.
-
-[10. Objective-C深入讨论](/)
-既包含对象的初始化, block, 协议, 分类, 预处理程序. 还包含基本C语言特性, 如函数, 数组, 结构和指针.
-
-[11. Foundation框架介绍](/)
-
-[12. Foundation框架的重要特性](/)
-包括数字和字符串对象, 集合, 文件系统, 内存管理及对象复制和归档.
-
-[13. Cocoa, CocoaTouch简介](/)
-
-[14. iOS SDK和UIKit框架](/)
-编写一个简单的计算器应用示例.
