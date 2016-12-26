@@ -6,12 +6,12 @@ title: "2. Objective-C 编程"
 
 首先, 举一个很简单的例子, 在屏幕上显示短语 "programming is fun!" 的程序.以下代码显示了完成此任务的代码.
 ```
-#import <Foundation/Foundation.h>
-int main (int argc, const char *argv[]) {
-	@autoreleasepool {
-		NLog (@"Programming is fun!");
+	#import <Foundation/Foundation.h>
+	int main (int argc, const char *argv[]) {
+		@autoreleasepool {
+			NLog (@"Programming is fun!");
 		}
-}
+	}
 ```
 
 ### 编译并运行程序
