@@ -57,15 +57,19 @@ Objective-C源文件使用.m作为文件名的最后两个字符(称为扩展名
 
 返回Xcode项目窗口, 窗口右侧显示了文件main.m的内容, Xcode能自动创建一个模板文件,包含以下内容:
 ```
+//
+//  main.m
+//  demo
+//
+//  Created by 张冬冬 on 2016/xx/xx.
+//
+//
 #import <Foundation/Foundation.h>
-
-int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
-    return 0;
-}
+	int main (int argc, const char *argv[]) {
+		@autoreleasepool {
+			NLog (@"Programming is fun!");
+		}
+	}
 ```
 
 你可以在该窗口编辑文件. 修改Edit窗口中显示的程序, 使之与本节开始时给出的程序相符. 以两个斜杠字符//开始的行称为注释.
